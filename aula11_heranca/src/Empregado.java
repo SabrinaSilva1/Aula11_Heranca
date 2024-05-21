@@ -2,6 +2,8 @@ public class Empregado {
     protected String nome;
     protected String endereço;
     protected double salario;
+
+    //Métodos de acesso
     public String getNome() {
         return nome;
     }
@@ -21,7 +23,7 @@ public class Empregado {
         this.salario = salario;
     }
 
-    
+    //Construtor
     public Empregado() {
     }
 
