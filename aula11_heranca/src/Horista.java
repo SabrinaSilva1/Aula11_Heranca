@@ -3,7 +3,7 @@ public class Horista extends Empregado {
 
     //Construtor
     public Horista(String n, String e, double h){
-        //super(n, e);
+        super(n, e);
         horas = h;
     }
 

@@ -2,7 +2,7 @@ public class Mensalista extends Empregado {
     private String cargo;
 
     public Mensalista(String n, String e, String c){
-        //super(n, e);
+        super(n, e);
         cargo = c;
     }
 

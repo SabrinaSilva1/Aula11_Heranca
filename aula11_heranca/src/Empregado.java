@@ -27,6 +27,10 @@ public class Empregado {
     public Empregado() {
     }
 
+    //Criei outro construtor, pois o super(n, e), estava dando erro.
+    public Empregado(String nome, String endereço){
+    }
+
     public Empregado(String nome, String endereço, double salario) {
         this.nome = nome;
         this.endereço = endereço;
