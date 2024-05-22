@@ -1,10 +1,12 @@
 public class Horista extends Empregado {
     private double horas;
+    private double vl_horas;
 
     //Construtor
-    public Horista(String n, String e, double h){
-        super(n, e);
-        horas = h;
+    public Horista(String nome, String endereco, double salario, double horas, double vl_horas){
+        super(nome, endereco);
+        this.horas = horas;
+        this.vl_horas = vl_horas;
     }
 
     //Métodos de acesso

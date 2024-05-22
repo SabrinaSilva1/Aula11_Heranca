@@ -27,15 +27,12 @@ public class Empregado {
     public Empregado() {
     }
 
-    //Criei outro construtor, pois o super(n, e), estava dando erro.
+    
     public Empregado(String nome, String endereço){
-    }
-
-    public Empregado(String nome, String endereço, double salario) {
         this.nome = nome;
         this.endereço = endereço;
-        this.salario = salario;
     }
+
 
     public double calcularIRPF(){
         double aux=0;
@@ -69,6 +66,12 @@ public class Empregado {
             aux = salario * 0.14;
         }
         return aux;
+    }
+
+    public void imprimir(){
+        System.out.println("Nome: " + getNome());
+        System.out.println("Endereço: " + getEndereço());
+        System.out.println("Salário: " + getSalario());
     }
 
     
